@@ -26,5 +26,8 @@
     "dependencyDashboard": false,
     "pre-commit": {
         "enabled": true
-    }
+    },
+    "assignees": [
+        "timo-reymann"
+    ]
 }
