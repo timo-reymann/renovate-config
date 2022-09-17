@@ -3,8 +3,7 @@
     "extends":[
         "config:base",
         "github>whitesource/merge-confidence:beta",
-        "group:recommended",
-        "schedule:daily"
+        "group:recommended"
     ],
     "enabledManagers": [
         "ansible-galaxy",
