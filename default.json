@@ -16,6 +16,7 @@
         "npm",
         "nvm",
         "pre-commit",
+        "regex",
         "terraform-version",
         "terraform",
         "pip_requirements"
