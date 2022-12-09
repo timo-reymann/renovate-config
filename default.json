@@ -32,5 +32,25 @@
     ],
     "reviewers": [
         "timo-reymann"
+    ],
+    "packageRules": [
+        {
+            "matchManagers": [
+                "pre-commit"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest",
+                "lockFileMaintenance",
+                "rollback",
+                "bump"
+            ],
+            "groupName": "pre-commit hooks",
+            "commitMessageSuffix": "[skip ci]",
+            "automerge": true,
+            "ignoreTests": true
+        }
     ]
 }
