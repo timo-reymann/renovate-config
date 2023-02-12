@@ -23,7 +23,7 @@
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
-    "dependencyDashboard": false,
+    "dependencyDashboard": true,
     "pre-commit": {
         "enabled": true
     },
