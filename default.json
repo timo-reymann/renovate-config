@@ -20,7 +20,10 @@
         "terraform-version",
         "terraform",
         "pip_requirements",
-        "java"
+        "gradle",
+        "gradle-wrapper",
+        "maven",
+        "maven-wrapper"
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
