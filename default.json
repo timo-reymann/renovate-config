@@ -19,7 +19,8 @@
         "regex",
         "terraform-version",
         "terraform",
-        "pip_requirements"
+        "pip_requirements",
+        "java"
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
