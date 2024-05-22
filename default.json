@@ -23,7 +23,8 @@
         "gradle",
         "gradle-wrapper",
         "maven",
-        "maven-wrapper"
+        "maven-wrapper",
+        "git-submodules"
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
