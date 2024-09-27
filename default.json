@@ -24,7 +24,9 @@
         "gradle-wrapper",
         "maven",
         "maven-wrapper",
-        "git-submodules"
+        "git-submodules",
+        "poetry",
+        "pep621"
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
