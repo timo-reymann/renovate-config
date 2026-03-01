@@ -27,7 +27,8 @@
         "maven-wrapper",
         "git-submodules",
         "poetry",
-        "pep621"
+        "pep621",
+        "github-actions"
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
