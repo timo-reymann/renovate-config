@@ -5,6 +5,10 @@
         "github>whitesource/merge-confidence:beta",
         "group:recommended"
     ],
+    "schedule": [
+        "after 10pm and before 3am every weekday"
+    ],
+    "minimumReleaseAge": "7 days",
     "recreateWhen": "never",
     "enabledManagers": [
         "ansible-galaxy",
