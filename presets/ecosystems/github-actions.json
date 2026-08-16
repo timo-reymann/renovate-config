@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>timo-reymann/renovate-config//presets/groups/github-actions-catchall",
+    "local>timo-reymann/renovate-config//presets/groups/github-actions-first-party",
+    "local>timo-reymann/renovate-config//presets/groups/github-actions-docker-trio"
+  ]
+}

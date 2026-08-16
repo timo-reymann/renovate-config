@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "poetry",
+        "pep621",
+        "pip_requirements"
+      ],
+      "matchPackageNames": [
+        "mkdocs",
+        "mkdocs-material",
+        "properdocs",
+        "pydoctor",
+        "pdoc3",
+        "mkdocs-techdocs-core"
+      ],
+      "groupName": "python docs toolchain"
+    }
+  ]
+}

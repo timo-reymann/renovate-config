@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackageNames": [
+        "actions/upload-pages-artifact",
+        "actions/deploy-pages"
+      ],
+      "groupName": "GitHub Pages deploy"
+    }
+  ]
+}

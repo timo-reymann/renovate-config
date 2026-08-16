@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchPackagePatterns": [
+        "^github.com/go-git/go-git",
+        "^github.com/chainguard-dev/git-urls",
+        "^github.com/Ladicle/tabwriter"
+      ],
+      "groupName": "git tooling"
+    }
+  ]
+}
