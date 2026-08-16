@@ -12,6 +12,7 @@
     "recreateWhen": "never",
     "enabledManagers": [
         "ansible-galaxy",
+        "cargo",
         "circleci",
         "docker-compose",
         "dockerfile",
