@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>timo-reymann/renovate-config//presets/groups/npm-catchall",
+    "local>timo-reymann/renovate-config//presets/groups/npm-test-toolchain",
+    "local>timo-reymann/renovate-config//presets/groups/npm-lint-toolchain",
+    "local>timo-reymann/renovate-config//presets/groups/npm-semantic-release-toolchain"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "poetry",
+        "pep621",
+        "pip_requirements"
+      ],
+      "matchPackageNames": [
+        "pytest",
+        "coverage"
+      ],
+      "matchPackagePatterns": [
+        "^pytest-"
+      ],
+      "groupName": "python test toolchain"
+    }
+  ]
+}

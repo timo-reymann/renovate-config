@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "svelte",
+        "svelte-check",
+        "wxt"
+      ],
+      "matchPackagePatterns": [
+        "^@wxt-dev/"
+      ],
+      "groupName": "Svelte + WXT toolchain"
+    }
+  ]
+}

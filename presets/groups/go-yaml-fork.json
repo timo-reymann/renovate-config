@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchPackagePatterns": [
+        "^github.com/vmware-labs/yaml-jsonpath",
+        "^gopkg.in/yaml.v3",
+        "^github.com/timo-reymann/go-yaml"
+      ],
+      "groupName": "YAML/JSONPath parsing"
+    }
+  ]
+}

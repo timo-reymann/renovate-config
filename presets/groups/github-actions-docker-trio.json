@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackageNames": [
+        "docker/setup-buildx-action",
+        "docker/build-push-action",
+        "docker/login-action",
+        "docker/setup-qemu-action"
+      ],
+      "groupName": "docker build/push/login actions"
+    }
+  ]
+}

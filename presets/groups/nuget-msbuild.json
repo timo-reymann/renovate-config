@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "nuget"
+      ],
+      "matchPackagePatterns": [
+        "^Microsoft.Build"
+      ],
+      "groupName": "MSBuild API family"
+    }
+  ]
+}

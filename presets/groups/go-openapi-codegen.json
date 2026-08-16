@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchPackagePatterns": [
+        "^github.com/getkin/kin-openapi",
+        "^github.com/oapi-codegen/"
+      ],
+      "groupName": "OpenAPI/codegen toolchain"
+    }
+  ]
+}

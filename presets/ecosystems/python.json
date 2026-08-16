@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>timo-reymann/renovate-config//presets/groups/python-catchall",
+    "local>timo-reymann/renovate-config//presets/groups/python-test-toolchain",
+    "local>timo-reymann/renovate-config//presets/groups/python-lint-toolchain",
+    "local>timo-reymann/renovate-config//presets/groups/python-docs-toolchain",
+    "local>timo-reymann/renovate-config//presets/groups/python-packaging-toolchain"
+  ]
+}
