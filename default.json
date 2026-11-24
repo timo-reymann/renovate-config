@@ -49,6 +49,22 @@
     ],
     "packageRules": [
         {
+            "matchUpdateTypes": [
+                "patch"
+            ],
+            "automerge": true
+        },
+        {
+            "matchManagers": [
+                "circleci"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true
+        },
+        {
             "matchManagers": [
                 "pre-commit"
             ],
